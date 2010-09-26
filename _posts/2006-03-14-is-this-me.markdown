@@ -1,0 +1,10 @@
+--- 
+wordpress_id: 10
+title: Is this me?
+wordpress_url: http://elaptics.wordpress.com/2006/03/16/is-this-me/
+layout: post
+---
+Ok, I just read this article <a href="http://db.tidbits.com/getbits.acgi?tbart=08455">TidBITS: From iPod to MacBook Pro: A Switcher's Tale</a> and it pretty much sounds like me and my view on the whole switching to Apple thing.
+
+I'm not a total mac zealot but I do think that if you've thought about switching (and even if you haven't), get yourself down to an Apple store or a reseller for Apple and have a go on one. I think you'll be pleasantly surprised.  One tip though; forget about Windows and how you have to do things, on the mac if you're not sure how to do something try the really obvious thing and it usually works exactly like you'd expect.
+<!-- technorati tags start --><p>Technorati Tags: <a href="http://www.technorati.com/tag/mac" rel="tag">mac</a></p><!-- technorati tags end -->
