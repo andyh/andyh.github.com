@@ -5,21 +5,21 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Elaptics.co.uk</title>
- <link href="http://.github.com/elaptics.co.uk/atom.xml" rel="self"/>
- <link href="http://.github.com/elaptics.co.uk/"/>
+ <link href="http://www.elaptics.co.uk/atom.xml" rel="self"/>
+ <link href="http://www.elaptics.co.uk/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://.github.com/elaptics.co.uk/</id>
+ <id>http://www.elaptics.co.uk/</id>
  <author>
-   <name>Dr Nic Williams</name>
-   <email>williams@gmail.com</email>
+   <name>Andy Henson</name>
+   <email>andy@elaptics.co.uk</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://.github.com/elaptics.co.uk{{ post.url }}"/>
+   <link href="http://www.elaptics.co.uk{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://.github.com/elaptics.co.uk{{ post.id }}</id>
+   <id>http://www.elaptics.co.uk{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
