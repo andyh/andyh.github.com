@@ -1,5 +1,5 @@
 future:      false
-lsi:         true
+lsi:         false
 pygments:    false
 markdown:    maruku
 permalink: /:year/:month/:title
