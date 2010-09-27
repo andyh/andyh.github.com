@@ -18,7 +18,7 @@
             <a href="http://www.elaptics.co.uk/about.html">About</a>
           </li> -->
           <li id="navi_source">
-            <a href="http://www.elaptics.co.uk/projects.html">Projects</a>
+            <a href="projects.html">Projects</a>
           </li>
         </ul>
       </div>
@@ -40,7 +40,7 @@
             <h4><a href="atom.xml" id="rss_feed" name="rss_feed">Blog Posts</a></h4>
             <p>
               {% for post in site.posts %} 
-                <span>{{ post.date | date_to_string }}</span> » <a href="/{{ post.url }}">{{ post.title }}</a><br>
+                <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}">{{ post.title }}</a><br>
               {% endfor %}
             </p>
           </div>
