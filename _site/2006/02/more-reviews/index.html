@@ -4,24 +4,22 @@
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
-    <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/master.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/syntax.css" charset="utf-8">
     <title>More Reviews</title>
   </head>
   <body id="intro">
     <div id="wrapper">
-      <div id="header" onclick="javascript:window.location='/elaptics.co.uk/'">
-        <h1></h1>
+      <div id="header">
+        <h1>elaptics.co.uk</h1>
       </div>
       <div id="navigation">
         <ul>
-          <li id="navi_intro">
-            <a href="/elaptics.co.uk/">Intro</a>
-          </li>
+          <!-- <li id="navi_intro">
+            <a href="http://www.elaptics.co.uk/about.html">About</a>
+          </li> -->
           <li id="navi_source">
-            <a href="http://github.com//elaptics.co.uk">Source</a>
-          </li>
-          <li id="navi_tickets">
-            <a href="http://.lighthouseapp.com/projects/TODO/tickets">Tickets</a>
+            <a href="http://www.elaptics.co.uk/projects.html">Projects</a>
           </li>
         </ul>
       </div>
@@ -33,42 +31,25 @@
 
 <p><a href='http://www.kudurshian.net/highpriority/'>High Priority</a> - I found this app by reading Douglas Bowman&#8217;s blog at <a href='http://www.stopdesign.com/log/2006/01/27/mac-app-high-priority.html'>Stopdesign</a> and I had the same problem, I like to make notes of things to do but I&#8217;d never found anything that quite did what I wanted, I thought iCal was it but if I didn&#8217;t have it running (more often than not) then I would forget about it and jot things down on paper again. But I think this is IT. It&#8217;s well worth the whole $6/£3.50 asking price. The only one feature that I think is missing is having some kind of date picker for setting the due date on a new or edited item.</p>
                     
-          <script type="text/javascript">var disqus_url = "http://.github.com/elaptics.co.uk/"; var disqus_title ="";</script>
-          <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/elaptics.co.uk/embed.js"></script>
-          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+          <div id="disqus_thread"></div>
           <script type="text/javascript">
-          //<![CDATA[
-          (function() {
-          		var links = document.getElementsByTagName('a');
-          		var query = '?';
-          		for(var i = 0; i < links.length; i++) {
-          			if(links[i].href.indexOf('#disqus_thread') >= 0) {
-          				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-          			}
-          		}
-          		document.write('<script type="text/javascript" src="http://disqus.com/forums/elaptics.co.uk/get_num_replies.js' + query + '"></' + 'script>');
-          	})();
-          //]]>
+            /**
+              * var disqus_identifier = ; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+              */
+            (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://elaptics.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
           </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=elaptics">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
           
         </div>
         <div id="sidebar">
           <div class="item">
-            <!-- Download    -->
-            <h4>Install Bundle</h4>
-            <p>Coming soon</p>
-          </div>
-          <div class="item">
-            <!-- Tickets   -->
-            <h4><a href="http://.lighthouseapp.com/projects/TODO/tickets" id="tickets" name="tickets">Tickets</a></h4>
-            <p>
-              Found a bug?<br />
-              Request a feature?
-            </p>
-          </div>
-          <div class="item">
             <!-- Blog   -->
-            <a href="../../../atom.xml" id="rss_feed" name="rss_feed">Blog Posts</a>
+            <a href="atom.xml" id="rss_feed" name="rss_feed">Blog Posts</a>
             <h4>Blog Posts</h4>
             <p>
                
@@ -104,15 +85,20 @@
               
             </p>
           </div>
-          <div class="item">
-            <script type="text/javascript" src="http://disqus.com/forums/elaptics.co.uk/combination_widget.js?num_items=5&color=orange&default_tab=recent"></script>
-          </div>
         </div>
       </div>
       <div id="footer">
-        <p><a href="http://github.com//elaptics.co.uk/tree/gh-pages" title="'s elaptics.co.uk at gh-pages &mdash; GitHub">website source</a> | generated by <a href="http://github.com/mojombo/jekyll">jekyll</a> and <a href="http://drnic.github.com/jekyll_generator">jekyll_generator</a></p>
+        <p>Copyright 2006 - 2010 &copy; Andy Henson</p>
       </div>
     </div>
-    <a href="http://github.com//elaptics.co.uk"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <a href="http://github.com/andyh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <script type="text/javascript">
+    var disqus_shortname = 'elaptics';
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.src = 'http://disqus.com/forums/elaptics/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
   </body>
 </html>
