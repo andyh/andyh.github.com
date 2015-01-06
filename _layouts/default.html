@@ -1,66 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/master.css" charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css" charset="utf-8"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="author" content="Andrew Henson">
+    <link href="{{ site.url }}{{ page.url | remove: "index.html" }}" rel="canonical">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.1/jquery.fluidbox.css">
+    {% stylesheet application %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.1/jquery.fluidbox.min.js"></script>
   </head>
-  <body id="intro">
-    <div id="wrapper">
-      <div id="header">
-        <h1>elaptics.co.uk</h1>
+
+  <body>
+  <header class="site-header" role="banner">
+      <div class="container">
+        <a href="/" class="logo"><img src="{% asset_path logo.png %}" alt="Andy Henson" class="site-logo"></a>
+
+        <nav role="navigation">
+          <ul class="site-nav">
+            <li><a href="/about/">About Me</a>
+            <li><a href="/projects/">Projects</a>
+          </ul>
+        </nav>
       </div>
-      <div id="navigation">
-        <ul>
-          <li id="navi_intro">
-            <a href="/index.html">Home</a>
-          </li>
-          <li id="navi_source">
-            <a href="/projects.html">Projects</a>
-          </li>
-        </ul>
-      </div>
-      <div id="page_body">
-        <div id="content">
-          {{ content }}
-        </div>
-        <div id="sidebar">
-          <div class="item">
-            <h4>Who?</h4>
-            <p>
-              Hi, I’m Andy. I live and work in Tamworth, near Birmingham (pretty much our only claim to fame is an indoor real-snow ski slope). You could say I’m obsessed with computers and you’d probably be right.  My current focus is on web development and lately I’m particularly keen on good design and simplicity.
-            </p>
-            <p>
-            I probably drink too much coffee and don’t do as much exercise as I should.                
-            </p>
-          </div>
-          <div class="item">
-            <h4><a href="atom.xml" id="rss_feed" name="rss_feed">Blog Posts</a></h4>
-            <p>
-              {% for post in site.posts %} 
-                <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}">{{ post.title }}</a><br>
-              {% endfor %}
-            </p>
-          </div>
-          <div class="item">
-            <h4>Projects</h4>
-            <p>
-                Listed below are my current and past projects that I have worked on and released for public consumption.
-            </p>
-            <ul>
-                <li><strong>TextMate TYPO3 Bundle</strong> (now available in the Macromates subversion repository)</li>
-                <li><strong>TextMate Snipplr Bundle</strong> - I wrote this to provide a quicker way to access Snipplr using its API through TextMate mainly as a way to learn some Ruby so it includes my Ruby wrapper to Snipplr (now superseded by a new Snipplr bundle from Snipplr directly)</li>
-                <li><strong>ma.gnolia Search Widget</strong> - A little Mac OS X Dashboard widget I wrote for accessing my ma.gnolia bookmarks.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <p>Copyright 2006 - {{ 'now' | date: "%Y" }} &copy; Andy Henson</p>
+    </header>
+
+    {% if page.hero %}
+      <div class="hero" style="background-image: url({{ page.hero }});"></div>
+    {% endif %}
+
+    <div class="site-content">
+      <div class="container">
+        {{ content }}
       </div>
     </div>
-    <a href="http://github.com/andyh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Copyright 2006 - {{ 'now' | date: "%Y" }} &copy; Andy Henson</p>
+        <p class="attribution">Design Theme courtesy of <a href="http://richgrundy.com">Rich Grundy</a></p>
+      </div>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'TODO', 'elaptics.co.uk');
+      ga('send', 'pageview');
+    </script>
+
+    <script>
+    $(function() {
+        $('a[data-fluidbox]').fluidbox();
+    });
+    </script>
   </body>
 </html>

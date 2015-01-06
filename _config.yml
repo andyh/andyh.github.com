@@ -1,5 +1,10 @@
+name: Andy Henson
+url: http://www.elaptics.co.uk
+description: The personal blog of Andy Henson.
 future:      false
 lsi:         false
-pygments:    false
-markdown:    maruku
+highlighter: pygments
+markdown:    kramdown
 permalink: /:year/:month/:title
+kramdown:
+  input: GFM

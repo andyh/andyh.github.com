@@ -1,64 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-<html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/master.css" charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css" charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body id="intro">
-    <div id="wrapper">
-      <div id="header">
-        <h1>elaptics.co.uk</h1>
-      </div>
-      <div id="navigation">
-        <ul>
-            <li id="navi_intro">
-              <a href="/index.html">Home</a>
-            </li>
-          <li id="navi_source">
-            <a href="/projects.html">Projects</a>
-          </li>
-        </ul>
-      </div>
-      <div id="page_body">
-        <div id="content">
-          {{ content }}
-                    
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-            /**
-              * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-              */
-            (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://elaptics.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=elaptics">comments powered by Disqus.</a></noscript>
-          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-          
-        </div>
-        <div id="sidebar">
-          <div class="item">
-              <!-- todo -->
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <p>Copyright 2006 - {{ 'now' | date: "%Y" }} &copy; Andy Henson</p>
-      </div>
-    </div>
-    <a href="http://github.com/andyh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-    <script type="text/javascript">
-    var disqus_shortname = 'elaptics';
-    (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.src = 'http://disqus.com/forums/elaptics/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
-  </body>
-</html>
+---
+layout: default
+---
+<h1 class="post-title">{{ page.title }}</h1>
+<p class="post-meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+
+<div class="post-comments">
+  Got any questions or comments? Drop me a message on <a href="http://twitter.com/elaptics" rel="nofollow">Twitter (@elaptics)</a>.
+</div>
