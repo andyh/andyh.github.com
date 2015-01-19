@@ -6,5 +6,6 @@ lsi:         false
 highlighter: pygments
 markdown:    kramdown
 permalink: /:year/:month/:title
+exclude: [vendor]
 kramdown:
   input: GFM
