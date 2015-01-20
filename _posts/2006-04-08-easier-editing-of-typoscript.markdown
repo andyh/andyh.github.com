@@ -2,6 +2,7 @@
 wordpress_id: 12
 title: Easier editing of TypoScript
 wordpress_url: http://elaptics.wordpress.com/2006/04/08/easier-editing-of-typoscript/
+redirect_from: /2006/04/easier-editing-of-typoscript
 layout: post
 categories:
     - textmate

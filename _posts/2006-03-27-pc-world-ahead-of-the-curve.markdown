@@ -2,6 +2,7 @@
 wordpress_id: 11
 title: PC World ahead of the curve?
 wordpress_url: http://elaptics.wordpress.com/2006/03/27/pc-world-ahead-of-the-curve/
+redirect_from: /2006/03/pc-world-ahead-of-the-curve
 layout: post
 category: mac
 ---

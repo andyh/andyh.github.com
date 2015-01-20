@@ -2,6 +2,7 @@
 wordpress_id: 6
 title: More Reviews
 wordpress_url: http://elaptics.wordpress.com/2006/02/25/more-reviews/
+redirect_from: /2006/02/more-reviews
 layout: post
 ---
 Well as promised I said I would say a little more about the various apps I've found recently.  I should note that I'm a mac user so these are all either mac specific or are web applications - so Windows users, go and get yourself a better computer :)

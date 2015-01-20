@@ -5,7 +5,11 @@ future:      false
 lsi:         false
 highlighter: pygments
 markdown:    kramdown
-permalink: /:year/:month/:title
+permalink: /journal/:title
 exclude: [vendor]
 kramdown:
   input: GFM
+gems:
+  - jekyll-redirect-from
+
+

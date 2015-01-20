@@ -2,6 +2,7 @@
 wordpress_id: 28
 title: design principles cheatsheet
 wordpress_url: http://www.elaptics.co.uk/?p=28
+redirect_from: /2008/08/design-principles-cheatsheet
 layout: post
 ---
 ![An elephant I drew when I was thirteen](/images/elephant-drawing-small.jpg) I've always enjoyed art and design and wasn't too bad at it, though never quite as good as I wanted to be. For quite a while through high school I was interested in becoming an Architect hopeful that it would satisfy my desire to mix science/engineering with art/design. My interest in computers won through and until the last couple of years, whilst I still dabbled in the design side of things, my focus had been much more on the logical, engineering side.  Now though, I'm enjoying getting involved in design tasks again and it's also informing my programming in many ways. (This is something I'm hoping to cover more in future posts.)

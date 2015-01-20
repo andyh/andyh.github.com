@@ -3,6 +3,7 @@ wordpress_id: 5
 title: Playing with stuff
 wordpress_url: http://elaptics.wordpress.com/2006/02/22/playing-with-stuff/
 layout: post
+redirect_from: /2006/02/playing-with-stuff
 categories:
     - psp
     - del.icio.us

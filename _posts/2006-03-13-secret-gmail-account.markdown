@@ -2,6 +2,7 @@
 wordpress_id: 9
 title: Secret GMail account
 wordpress_url: http://elaptics.wordpress.com/2006/03/13/secret-gmail-account/
+redirect_from: /2006/02/secret-gmail-account
 layout: post
 categories:
     - endo

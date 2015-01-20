@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+redirect_from: /projects.html
 ---
 Probably best to check back soon, in the meantime have a look on [github](http://github.com/andyh)
 

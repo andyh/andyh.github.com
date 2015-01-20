@@ -155,4 +155,5 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-assets
+  jekyll-redirect-from
   sass

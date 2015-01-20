@@ -2,6 +2,7 @@
 wordpress_id: 16
 title: New Design, New Beginnings?
 wordpress_url: http://www.elaptics.co.uk/?p=16
+redirect_from: /2008/05/new-design-new-beginnings
 layout: post
 ---
 Finally gotten around to updating my site to consolidate everything into one
