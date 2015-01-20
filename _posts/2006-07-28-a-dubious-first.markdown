@@ -2,6 +2,7 @@
 wordpress_id: 14
 title: A dubious first!
 wordpress_url: https://elaptics.wordpress.com/2006/07/28/a-dubious-first/
+redirect_from: /2006/07/a-dubious-first
 layout: post
 ---
 Well apparently I can claim a first - for being spammed through ma.gnolia!  Yes, apparently nowhere is safe from spam now.

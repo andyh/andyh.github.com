@@ -2,6 +2,7 @@
 wordpress_id: 31
 title: Automating Git repository setup with Capistrano
 wordpress_url: http://www.elaptics.co.uk/?p=31
+redirect_from: /2008/12/automating-git-repository-setup-with-capistrano
 layout: post
 ---
 Setting up a remote repository for Git is really easy, but who wants to type things unnecessarily? Tonight I knocked up a task for Capistrano which *gitify's* your current directory then creates a remote git repository and pushes to it.

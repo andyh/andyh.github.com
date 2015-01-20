@@ -2,6 +2,7 @@
 wordpress_id: 20
 title: Blast from the past
 wordpress_url: http://www.elaptics.co.uk/?p=20
+redirect_from: /2008/06/blast-from-the-past
 layout: post
 ---
 In an attempt to ensure that I keep this blogging lark up, I thought I would resurrect an old post I made a couple of years ago to a now defunct blog to serve as a starting point and thus I'll revisit where I am now in a future post.

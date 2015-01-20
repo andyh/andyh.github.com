@@ -2,6 +2,7 @@
 wordpress_id: 13
 title: .ds_store no more (on network shares at least!)
 wordpress_url: http://elaptics.wordpress.com/2006/04/26/ds_store-no-more-on-network-shares-at-least/
+redirect_from: /2006/04/ds_store-no-more-on-network-shares-at-least
 layout: post
 categories:
     - mac

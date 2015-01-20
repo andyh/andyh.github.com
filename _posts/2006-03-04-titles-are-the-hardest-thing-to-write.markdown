@@ -2,6 +2,7 @@
 wordpress_id: 7
 title: Titles are the hardest thing to write!
 wordpress_url: http://elaptics.wordpress.com/2006/03/04/titles-are-the-hardest-thing-to-write/
+redirect_from: /2006/03/titles-are-the-hardest-thing-to-write
 layout: post
 categories:
     - mac

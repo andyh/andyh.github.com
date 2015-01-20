@@ -3,6 +3,7 @@ wordpress_id: 4
 title: First Posting
 wordpress_url: http://elaptics.wordpress.com/2006/02/20/first-posting/
 layout: post
+redirect_from: /2006/02/first-posting
 ---
 As you might have guessed from the title, this is my first posting on my brand spanking new blog that almost certainly no-one is going to read!
 

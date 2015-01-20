@@ -2,6 +2,7 @@
 wordpress_id: 10
 title: Is this me?
 wordpress_url: http://elaptics.wordpress.com/2006/03/16/is-this-me/
+redirect_from: /2006/03/is-this-me
 layout: post
 category: mac
 ---

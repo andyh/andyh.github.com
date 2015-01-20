@@ -2,6 +2,7 @@
 wordpress_id: 25
 title: Backpack Journal Dashboard Widget
 wordpress_url: http://www.elaptics.co.uk/?p=25
+redirect_from: /2008/06/backpack-journal-dashboard-widget
 layout: post
 categories:
     - backpack

@@ -1,0 +1,32 @@
+---
+layout: default
+title: elaptics.co.uk
+sitemap:
+  priority: 0.9
+  changefreq: daily
+---
+
+<div class="about-blurb">
+  <h1>Andy Henson</h1>
+  <p>
+    Welcome to my humble abode on the web. I'm a professional string concatenator
+    and this is my journal where I mostly talk about programming-related things and the trials and
+    tribulations of running a small business. You might find me around the
+    internet answering to the name, elaptics.
+  </p>
+  <p class="about-blurb__icons">
+    <a rel="nofollow" href="http://github.com/andyh/"><i class="icon-github"></i></a>
+    <a rel="nofollow" href="http://twitter.com/elaptics/"><i class="icon-twitter"></i></a>
+    <a rel="nofollow" href="http://uk.linkedin.com/in/andrewjhenson"><i class="icon-linkedin"></i></a>
+    <a rel="nofollow" href="mailto:andy@elaptics.co.uk"><i class="icon-mail"></i></a>
+    <a rel="nofollow" href="http://elaptics.co.uk/atom.xml"><i class="icon-feed3"></i></a>
+  </p>
+</div>
+
+<hr>
+<h2>Latest Entries</h2>
+<ul class="posts">
+  {% for post in site.posts limit:5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a><span class="posts__date">{{ post.date | date_to_string }}</span></li>
+  {% endfor %}
+</ul>
