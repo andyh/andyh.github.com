@@ -4,7 +4,7 @@ title: Projects
 ---
 Probably best to check back soon, in the meantime have a look on [github](http://github.com/andyh)
 
-Projects
+# Projects
 
 Listed below are my current and past projects that I have worked on and released for public consumption.
 
