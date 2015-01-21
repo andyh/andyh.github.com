@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Automating Git repository setup with Capistrano</title>
+    
+    <meta name="description" content="The personal blog of Andy Henson.">
+    
+    <meta name="author" content="Andrew Henson">
+    <link href="http://www.elaptics.co.uk/journal/automating-git-repository-setup-with-capistrano" rel="canonical">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="alternate" type="application/rss+xml" title="Andy Henson" href="http://www.elaptics.co.uk/atom.xml">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.1/jquery.fluidbox.css">
+    <link rel="stylesheet" href="/assets/application-9ed3edd4aff68530d496fa821787ea25.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.1/jquery.fluidbox.min.js"></script>
+  </head>
+
+  <body>
+  <header class="site-header" role="banner">
+      <div class="container">
+        <a href="/" class="logo"><img src="/assets/logo-5c2df7bda9c843e56a8deadb70ce1634.png" alt="Andy Henson" class="site-logo"></a>
+
+        <nav role="navigation">
+          <ul class="site-nav">
+            <li><a href="/about/">About Me</a>
+            <li><a href="/journal/">Journal Archive</a>
+            <li><a href="/projects/">Projects</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+
+    <div class="site-content">
+      <div class="container">
+        <h1 class="post-title">Automating Git repository setup with Capistrano</h1>
+<p class="post-meta">08 Dec 2008</p>
+
+<div class="post">
+  <p>Setting up a remote repository for Git is really easy, but who wants to type things unnecessarily? Tonight I knocked up a task for Capistrano which <em>gitify’s</em> your current directory then creates a remote git repository and pushes to it.</p>
+
+<p>It’s based on a bit of code by <a href="http://peepcode.com">Geoffrey Grosenbach</a> but modified for my needs. I have a VPS which is where I want to host my repositories. This should also work if you’re running on a shared host like Dreamhost where you have ssh access, though I haven’t tested it.</p>
+
+<p>Simply cut and paste the following code into <code>~/.caprc</code> then you can run:</p>
+
+<pre><code>cap git:setup scm=t
+</code></pre>
+
+<p>If it’s a Rails app then you can also do</p>
+
+<pre><code>cap git:setup scm=t railsapp=t
+</code></pre>
+
+<p>which will add .gitignore files to exclude the basics like log and temp files, .DS_Store, .sqlite3 and the api docs</p>
+
+<script src="http://gist.github.com/33269.js"></script>
+
+
+</div>
+
+<div class="post-comments">
+  Got any questions or comments? Drop me a message on <a href="http://twitter.com/elaptics" rel="nofollow">Twitter (@elaptics)</a>.
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Copyright 2006 - 2015 &copy; Andy Henson</p>
+        <p class="attribution">Design Theme courtesy of <a href="http://richgrundy.com">Rich Grundy</a></p>
+      </div>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58724666-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+      $(function() {
+          $('a[data-fluidbox]').fluidbox();
+      });
+    </script>
+  </body>
+</html>

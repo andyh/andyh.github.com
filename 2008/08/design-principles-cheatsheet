@@ -1,0 +1,8 @@
+      <!DOCTYPE html>
+      <meta charset=utf-8>
+      <title>Redirecting...</title>
+      <link rel=canonical href="/journal/design-principles-cheatsheet">
+      <meta http-equiv=refresh content="0; url=/journal/design-principles-cheatsheet">
+      <h1>Redirecting...</h1>
+      <a href="/journal/design-principles-cheatsheet">Click here if you are not redirected.</a>
+      <script>location='/journal/design-principles-cheatsheet'</script>

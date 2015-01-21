@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Elaptics.co.uk</title>
+ <link href="http://www.elaptics.co.uk/atom.xml" rel="self"/>
+ <link href="http://www.elaptics.co.uk/"/>
+ <updated>2015-01-21T05:59:43+00:00</updated>
+ <id>http://www.elaptics.co.uk/</id>
+ <author>
+   <name>Andy Henson</name>
+   <email>andy@elaptics.co.uk</email>
+ </author>
+
+ 
+ <entry>
+   <title>Automating Git repository setup with Capistrano</title>
+   <link href="http://www.elaptics.co.uk/journal/automating-git-repository-setup-with-capistrano"/>
+   <updated>2008-12-08T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/automating-git-repository-setup-with-capistrano</id>
+   <content type="html">&lt;p&gt;Setting up a remote repository for Git is really easy, but who wants to type things unnecessarily? Tonight I knocked up a task for Capistrano which &lt;em&gt;gitify’s&lt;/em&gt; your current directory then creates a remote git repository and pushes to it.&lt;/p&gt;
+
+&lt;p&gt;It’s based on a bit of code by &lt;a href=&quot;http://peepcode.com&quot;&gt;Geoffrey Grosenbach&lt;/a&gt; but modified for my needs. I have a VPS which is where I want to host my repositories. This should also work if you’re running on a shared host like Dreamhost where you have ssh access, though I haven’t tested it.&lt;/p&gt;
+
+&lt;p&gt;Simply cut and paste the following code into &lt;code&gt;~/.caprc&lt;/code&gt; then you can run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cap git:setup scm=t
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If it’s a Rails app then you can also do&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cap git:setup scm=t railsapp=t
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which will add .gitignore files to exclude the basics like log and temp files, .DS_Store, .sqlite3 and the api docs&lt;/p&gt;
+
+&lt;script src=&quot;http://gist.github.com/33269.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>design principles cheatsheet</title>
+   <link href="http://www.elaptics.co.uk/journal/design-principles-cheatsheet"/>
+   <updated>2008-08-10T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/design-principles-cheatsheet</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/elephant-drawing-small.jpg&quot; alt=&quot;An elephant I drew when I was thirteen&quot; /&gt; I’ve always enjoyed art and design and wasn’t too bad at it, though never quite as good as I wanted to be. For quite a while through high school I was interested in becoming an Architect hopeful that it would satisfy my desire to mix science/engineering with art/design. My interest in computers won through and until the last couple of years, whilst I still dabbled in the design side of things, my focus had been much more on the logical, engineering side.  Now though, I’m enjoying getting involved in design tasks again and it’s also informing my programming in many ways. (This is something I’m hoping to cover more in future posts.)&lt;/p&gt;
+
+&lt;p&gt;One thing has always passed me by though, and that’s typography. I’ve never really paid much attention to it, but since watching a documentary by Stephen Fry on Gutenberg a few months ago I’ve become fascinated with it. With credit card in hand I made my way to Waterstones and visited the design section. I picked up &lt;a href=&quot;http://www.amazon.co.uk/exec/obidos/ASIN/1856694372&quot;&gt;Type &amp;amp; Typography (Phil Baines and Andrew Haslam)&lt;/a&gt; as well as &lt;a href=&quot;http://www.amazon.co.uk/exec/obidos/ASIN/0321534050&quot;&gt;The Non-Designer’s Design and Type Books, Deluxe Edition (Robin Williams)&lt;/a&gt;. A slight detour via the science fiction section, a few moleskines and a lighter bank balance and I’m on my way home.&lt;/p&gt;
+
+&lt;p&gt;I thought I’d start with Robin Williams (not the comedian) book to brush up on my design skills and get a gentler introduction to type.  Overall, I was very impressed with the book. It was an easy read and it really got the information over well, I highly recommend you buy a copy.  Eager to put my new-found skills and inspired by Amy Hoy’s &lt;a href=&quot;http://www.slash7.com/articles/2006/11/3/stuff-you-can-download&quot;&gt;cheatsheets&lt;/a&gt; I thought I would put together my own on design principles.&lt;/p&gt;
+
+&lt;p&gt;I know I’ve broken a few design rules in putting it together but my aim was to illustrate some of the &lt;em&gt;Don’ts&lt;/em&gt; as well as the &lt;em&gt;Do’s&lt;/em&gt;. That said, I would really appreciate any feedback or criticism you may have on the overall design and the typefaces I chose along with any tips you might have for improvement. Any recommendations for books or other resources are also most welcome.
+&lt;a href=&quot;http://www.elaptics.co.uk/assets/design-principles-cheatsheet.pdf&quot;&gt;&lt;img src=&quot;/images/design-principles-cheatsheet-tm.jpg&quot; alt=&quot;Design Principles Cheatsheet&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Backpack Journal Dashboard Widget</title>
+   <link href="http://www.elaptics.co.uk/journal/backpack-journal-dashboard-widget"/>
+   <updated>2008-06-13T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/backpack-journal-dashboard-widget</id>
+   <content type="html">&lt;p&gt;At work we use quite a few 37signals products to manage our internal processes and client projects, one of which is Backpack.  37signals recently introduced a new feature, &lt;em&gt;Journal&lt;/em&gt;, for tracking what you’ve done and what you’re currently doing which we’re trying out to see if it’s a good fit for us.  On their product blog there was a &lt;a href=&quot;http://37signals.blogs.com/products/2008/05/dashboard-widge.html&quot;&gt;recent post&lt;/a&gt; about a Dashboard widget for updating your status and journal entries.&lt;/p&gt;
+
+&lt;p&gt;That’s pretty cool, I thought, but kinda redundant because Safari on Leopard has an awesome, but probably somewhat underused, webclip button which allows you to grab part of a webpage and have it turned into a widget.  And as all programmers know, the best code to write is no code.  So I have grabbed the updating part of the page as per the widget described and also the team’s recent updates. As a double bonus, it updates the clips when you invoke Dashboard so you get the latest team updates straight away rather than what you’d normally be having to do is refresh your browser’s page yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ok, I’m blind, where’s this button?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Right here…
+&lt;img src=&quot;/images/webclip-tm.jpg&quot; alt=&quot;Webclip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is what mine looks like on my Dashboard.  The webclip widgets also allow you to put different frames around the clip, just flip it over and pick from the options.  This season my two widgets are sporting the latest in Torn Edge and Glass themes fashion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/backpack-on-dashboard-tm.jpg&quot; alt=&quot;Backpack on Dashboard&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blast from the past</title>
+   <link href="http://www.elaptics.co.uk/journal/blast-from-the-past"/>
+   <updated>2008-06-09T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/blast-from-the-past</id>
+   <content type="html">&lt;p&gt;In an attempt to ensure that I keep this blogging lark up, I thought I would resurrect an old post I made a couple of years ago to a now defunct blog to serve as a starting point and thus I’ll revisit where I am now in a future post.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-brief-history-of-computing-well-according-to-me&quot;&gt;A brief history of computing (well, according to me)&lt;/h1&gt;
+
+&lt;p&gt;I’ve had an interest in computers ever since I wrote my first Basic program, when I was eleven, on our Tandy 1000 and began poking around it’s memory with Norton Utilities trying to crack the high score tables of some of the games we had. (I even managed to succeed with a couple!)&lt;/p&gt;
+
+&lt;p&gt;Fast forwarding several years of Amiga programming I ended up building my own PC which has been upgraded many times to the current incarnation that’s sitting under my desk here. It stopped being upgraded when I discovered Apple Macs and (maybe more importantly) Mac OS X. And it’s through Macs that I came to discover Ruby on Rails. In my search for the ultimate text editor, which I found in &lt;a href=&quot;http://www.macromates.com&quot;&gt;TextMate&lt;/a&gt;, I saw a video of TextMate being used with this web framework thingy. What piqued my interest was not only the fact that it seemed so quick to put together a basic application but the guy who was demonstrating it was clearly so passionate about it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-gem-in-all-of-this&quot;&gt;The gem in all of this&lt;/h2&gt;
+
+&lt;p&gt;I started looking into it and the philosophies behind it, and I think that a combination of them and where my head is at now is the reason that it all seems to gel together nicely. The key piece of the jigsaw, that seems to be often overlooked in all the hype, is Ruby. It really is a joy to use and like many Ruby fans have said it “just fits your brain”.&lt;/p&gt;
+
+&lt;p&gt;The majority of my past programming experience has been in procedural programming and although many of the languages I have used have some elements of Object Oriented programming I’ve never really been able to fully wrap my head around the principles of Object Orientation until now. At university we used Smalltalk but I never got it, it just didn’t feel right and it didn’t excite me. Somehow, and I really can’t explain how, Ruby just feels right. I can write code the way my brain thinks and though I don’t know Ruby very well yet I write what I think it ought to be and very often it turns out it is and the code works.&lt;/p&gt;
+
+&lt;p&gt;But the proof is in the pudding; I’m still learning the ropes but even with that in mind I have built a proof of concept app for an internal company project from start to finish in 5 hours with Ruby on Rails; that’s from inception to a working prototype oh, and I had to find out how to do some stuff in Rails too, so I reckon that time can be cut down somewhat too.&lt;/p&gt;
+
+&lt;p&gt;So where does that leave us? Well it convinced me that it is viable for us to use it to build web apps in our spare time in a reasonable length of time - and have fun doing it! By letting us be more productive it should also allow us to spend more time on the little things that matter, the things that make a good app into a great app.&lt;/p&gt;
+
+&lt;p&gt;Having said that, I’d certainly like to hear your stories of how you got into Ruby and/or Rails, and also if you didn’t.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>New Design, New Beginnings?</title>
+   <link href="http://www.elaptics.co.uk/journal/new-design-new-beginnings"/>
+   <updated>2008-05-26T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/new-design-new-beginnings</id>
+   <content type="html">&lt;p&gt;Finally gotten around to updating my site to consolidate everything into one&lt;br /&gt;
+place. I spent a bit of time deciding what to do –should I just go “old&lt;br /&gt;
+school” and hand code everything, or should I write my own little blogging tool?&lt;br /&gt;
+In the end, as much as I quite fancied writing my own blogging tool I have too&lt;br /&gt;
+little time on my hands to do that and plenty of other projects that I’d rather&lt;br /&gt;
+be working on, so I plumped for WordPress, as it’s one I’ve used before and the&lt;br /&gt;
+newest version is pretty nice to use. And it’s easy to get set up.&lt;/p&gt;
+
+&lt;p&gt;So, here’s to new beginnings and a hope that I will keep this site much more up&lt;br /&gt;
+to date with my thoughts and perhaps even a few articles…&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A dubious first!</title>
+   <link href="http://www.elaptics.co.uk/journal/a-dubious-first"/>
+   <updated>2006-07-28T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/a-dubious-first</id>
+   <content type="html">&lt;p&gt;Well apparently I can claim a first - for being spammed through ma.gnolia!  Yes, apparently nowhere is safe from spam now.&lt;/p&gt;
+
+&lt;p&gt;Today I received a message within ma.gnolia (the really nice bookmarking website, for those of you who don’t know) from member donco.  I’ve posted a screenshot of the message for posterity. &lt;img src=&quot;/images/magnolia-spam.jpg&quot; alt=&quot;Magnolia Spam&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An a related note, I’m in the closing stages of putting together a widget for Mac OS X Tiger to quickly search just your own ma.gnolia bookmarks.  When it’s done I’ll put it on my website for download and maybe see if I can get it listed on ma.gnolia itself.  Speaking of websites, I’m also just getting my actual site up (www.elaptics.co.uk) if you want to see it in it’s current part-finished state. And that’s my rubbish excuse for not keeping this blog up to date!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>.ds_store no more (on network shares at least!)</title>
+   <link href="http://www.elaptics.co.uk/journal/ds_store-no-more-on-network-shares-at-least"/>
+   <updated>2006-04-26T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/ds_store-no-more-on-network-shares-at-least</id>
+   <content type="html">&lt;p&gt;Nothing exciting (for most people) but I’ve just finally found an easy way to stop creating the useless .ds_store files on non-mac network shares so I’m putting the info here for my posterity.&lt;/p&gt;
+
+&lt;p&gt;http://docs.info.apple.com/article.html?artnum=301711&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open the Terminal&lt;/li&gt;
+  &lt;li&gt;Type:
+&lt;code&gt;defaults write com.apple.desktopservices DSDontWriteNetworkStores true&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Press Return&lt;/li&gt;
+  &lt;li&gt;Restart the computer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As found on &lt;a href=&quot;www.textsnippets.com&quot;&gt;http://www.textsnippets.com&lt;/a&gt; (which also may come in handy in the future)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Easier editing of TypoScript</title>
+   <link href="http://www.elaptics.co.uk/journal/easier-editing-of-typoscript"/>
+   <updated>2006-04-08T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/easier-editing-of-typoscript</id>
+   <content type="html">&lt;p&gt;I’ve recently discovered TextMate from
+&lt;a href=&quot;http://www.macromates.com&quot;&gt;www.macromates.com&lt;/a&gt; - a superb text editor,&lt;br /&gt;
+previously I’ve been using TextWrangler but I’m slowly using TextMate more and&lt;br /&gt;
+more, one of it’s really great features is it’s expandability through the use of&lt;br /&gt;
+bundles.&lt;/p&gt;
+
+&lt;p&gt;In getting to grips with the bundle editor I decided to put together a bundle&lt;br /&gt;
+for editing TypoScript so that it has syntax highlighting plus I’ve added some&lt;br /&gt;
+of the more common TypoScript objects as snippets to make it much quicker to put&lt;br /&gt;
+your typoscript together.  I’ve put a link to the TSRef doc online as well as&lt;br /&gt;
+ensuring the comment toggle puts the right comment symbol in.&lt;/p&gt;
+
+&lt;p&gt;Not sure how it measures up as a first attempt but &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#110;&amp;#100;&amp;#121;&amp;#064;&amp;#101;&amp;#108;&amp;#097;&amp;#112;&amp;#116;&amp;#105;&amp;#099;&amp;#115;&amp;#046;&amp;#099;&amp;#111;&amp;#046;&amp;#117;&amp;#107;&quot;&gt;drop me a&lt;br /&gt;
+line&lt;/a&gt; if you find it useful or would like to see&lt;br /&gt;
+some other things added to it, likewise if you add any more features why not&lt;br /&gt;
+send them to me so I can include them here.  If enough people are finding it&lt;br /&gt;
+useful then we can also consider getting the bundle added to the main repository&lt;br /&gt;
+at macromates.&lt;/p&gt;
+
+&lt;p&gt;I’ve added the following scope selectors to the language grammars which you’ll&lt;br /&gt;
+almost certainly want to add to your theme to have the syntax highlighted.&lt;br /&gt;
+(Whether these are the best scopes to use I don’t know but feel free to suggest&lt;br /&gt;
+others).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;entity.other.tsobject
+entity.other.tsconstant
+entity.other.tsvalue
+entity.other.tscopy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The bundle is much updated and now available from the macromates subversion&lt;br /&gt;
+repository. Thanks to Sudara there is also a theme and a much better language&lt;br /&gt;
+grammar. You can find it under the Review directory. (Maybe one of these days&lt;br /&gt;
+I’ll iron out all the kinks and get it into the main section)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PC World ahead of the curve?</title>
+   <link href="http://www.elaptics.co.uk/journal/pc-world-ahead-of-the-curve"/>
+   <updated>2006-03-27T00:00:00+01:00</updated>
+   <id>http://www.elaptics.co.uk/journal/pc-world-ahead-of-the-curve</id>
+   <content type="html">&lt;p&gt;Well looks like PC World have managed to pull off a bit of a coup - but they’re keeping it a bit quiet.  Whilst some have &lt;a href=&quot;http://www.onmac.net/&quot;&gt;managed&lt;/a&gt; to get Windows XP running on the new Intel based Mac’s, PC World have managed to get Mac OS X running on non Apple based kit - at least if their new advert in the UK is anything to go by!  The advert I saw on E4 last night shows the PC World website running on the Compaq notebook PC.  Their web browser of choice? Apple’s Safari browser! :)  Well at least now they’re admitting OS X is a better operating system to run!! :)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Is this me?</title>
+   <link href="http://www.elaptics.co.uk/journal/is-this-me"/>
+   <updated>2006-03-14T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/is-this-me</id>
+   <content type="html">&lt;p&gt;Ok, I just read this article &lt;a href=&quot;http://db.tidbits.com/getbits.acgi?tbart=08455&quot;&gt;TidBITS: From iPod to MacBook Pro: A Switcher’s Tale&lt;/a&gt; and it pretty much sounds like me and my view on the whole switching to Apple thing.&lt;/p&gt;
+
+&lt;p&gt;I’m not a total mac zealot but I do think that if you’ve thought about switching (and even if you haven’t), get yourself down to an Apple store or a reseller for Apple and have a go on one. I think you’ll be pleasantly surprised.  One tip though; forget about Windows and how you have to do things, on the mac if you’re not sure how to do something try the really obvious thing and it usually works exactly like you’d expect.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Secret GMail account</title>
+   <link href="http://www.elaptics.co.uk/journal/secret-gmail-account"/>
+   <updated>2006-03-13T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/secret-gmail-account</id>
+   <content type="html">&lt;p&gt;Wow, another week has flown by, nothing great to report other than I’ve found &lt;em&gt;another&lt;/em&gt; rss news reader which I’m trying out.  (&lt;a href=&quot;http://kula.jp/software/endo/&quot;&gt;Endo&lt;/a&gt; for anyone who’s interested) plus I’m also trying out Wordpress to see the differences between that and Blogger.&lt;/p&gt;
+
+&lt;p&gt;Ok, the real reason for this post is just to note that I found out today that anyone who has a googlemail.com account with Google can still claim they have a gmail.com address and use it.  I’m sure this isn’t secret at all (all I did was notice the headers of some mails sent to me through googlemail) but it’s good to know, googlemail just doesn’t have the same ring to it as gmail.  Maybe, at some point we’ll lose the ability (if Google loses it’s legal battle) but for now it works.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Titles are the hardest thing to write!</title>
+   <link href="http://www.elaptics.co.uk/journal/titles-are-the-hardest-thing-to-write"/>
+   <updated>2006-03-04T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/titles-are-the-hardest-thing-to-write</id>
+   <content type="html">&lt;p&gt;Well another week has shot by, haven’t really done much this week  but suffice to say that I’ve been playing around with more apps again and been trying out various RSS readers to see if I can find one I like.  At this stage I’m still not sure, I’m torn between &lt;a href=&quot;http://www.newsfirerss.com/&quot;&gt;Newsfire&lt;/a&gt; and &lt;a href=&quot;http://ranchero.com/netnewswire/&quot;&gt;NetNewsWire&lt;/a&gt;, what I really want is a mix of the two…&lt;/p&gt;
+
+&lt;p&gt;Also, I think I’ve decided to forget del.icio.us for now, I’ve found &lt;a href=&quot;http://ma.gnolia.com/&quot;&gt;ma.gnolia.com&lt;/a&gt; instead which I think I prefer. It was certainly very easy to get bookmarks into it as opposed to del.icio.us where I have to find some other program to do the import.  It’s also much nicer to look at, although sometimes it seems a little sluggish.  It also has some nice features that del.icio.us doesn’t have, but it’s early days and I’m fickle so maybe by next week I’ll have found another one :)&lt;/p&gt;
+
+&lt;p&gt;My new website at &lt;a href=&quot;http://www.elaptics.co.uk&quot;&gt;www.elaptics.co.uk&lt;/a&gt; is coming along, I’ve got the main template up and running and I’ve decided to use &lt;a href=&quot;http://typo3.org/&quot;&gt;TYPO3&lt;/a&gt; 4beta as a bit of an excuse to test it.  I’ve had a few problems which I’m still working through, it looks like many extensions are going to need some alterations to work satisfactorily in version 4 at this point though.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>More Reviews</title>
+   <link href="http://www.elaptics.co.uk/journal/more-reviews"/>
+   <updated>2006-02-25T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/more-reviews</id>
+   <content type="html">&lt;p&gt;Well as promised I said I would say a little more about the various apps I’ve found recently.  I should note that I’m a mac user so these are all either mac specific or are web applications - so Windows users, go and get yourself a better computer :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ecto.kung-foo.tv/&quot;&gt;ecto&lt;/a&gt; - Ok, I haven’t done too much with this yet but it’s really easy to use and looks like it has some nice handy features, set up and getting started was no problem whatsoever and I definitely prefer just being able to leave this running and quickly jot a note down in it for adding to later on. The ectoize shortcut/bookmark for the browser’s also seems a handy feature although I haven’t actually used it yet but it’s still early days.  Maybe this is another review I should come back to in another couple of weeks but I guess the real proof will be whether I think it’s worth purchasing to continue using after the trial period is over.  By the way Windows users, if you’re still reading this, ecto is available for your platform too.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.kudurshian.net/highpriority/&quot;&gt;High Priority&lt;/a&gt; - I found this app by reading Douglas Bowman’s blog at &lt;a href=&quot;http://www.stopdesign.com/log/2006/01/27/mac-app-high-priority.html&quot;&gt;Stopdesign&lt;/a&gt; and I had the same problem, I like to make notes of things to do but I’d never found anything that quite did what I wanted, I thought iCal was it but if I didn’t have it running (more often than not) then I would forget about it and jot things down on paper again.  But I think this is IT.  It’s well worth the whole $6/£3.50 asking price. The only one feature that I think is missing is having some kind of date picker for setting the due date on a new or edited item.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Playing with stuff</title>
+   <link href="http://www.elaptics.co.uk/journal/playing-with-stuff"/>
+   <updated>2006-02-22T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/playing-with-stuff</id>
+   <content type="html">&lt;h1 id=&quot;psp-video&quot;&gt;PSP Video&lt;/h1&gt;
+
+&lt;p&gt;Been playing with various things the last few days, mainly trying to get video’s onto my PSP. It’s been more of a pain than it ought to be. There’s not so many programs for the mac to make it as simple as it ought to be. The few that I found were more expensive than free and not as good as mac apps should be. Finally found one that seems to get it in the right format without much hassle but it looks like it’s early in it’s development because you can only do one file at a time, so a queuing feature would be nice. Otherwise it does a good job as well as being free.  You can find it here &lt;a href=&quot;http://homepage.mac.com/major4/&quot;&gt;ffmpegX a DVD, SVCD, VCD, CVD, VOB, DivX, XviD, H.264, PSP, iPod, MP4, MOV encoder for Mac OSX&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a real pain that you can’t just drop the files that most podcasts and the other video formats come in straight onto the PSP. The conversions take around 10 mins or more for 20 min videos so you can’t just drop them on at a whim if you suddenly need to go out and you want to take the videos with you.&lt;/p&gt;
+
+&lt;p&gt;I found that the best settings for the podcasts I get from iTunes are to use the PSP H.264 preset setting and then go and alter the video resolution to 320x240 unless it’s already a widescreen video.  It’s also worth making sure it’s set to NTSC. Apparently PAL works on PSPs with later firmware but when I re-encoded a video the audio was out with the video.&lt;/p&gt;
+
+&lt;h2 id=&quot;delicious&quot;&gt;del.icio.us&lt;/h2&gt;
+
+&lt;p&gt;In the course of getting this blog set up I’ve been reading a few blogs and come across various nifty apps (web and mac), some of which I’d seen before but not really considered as being of that great a benefit. Being in a webby mood I thought I’d give them a try.  I’m pleasantly surprised with del.icio.us thus far, although I can’t actually access the site right now - I hope this is a one off and it’s not down too much otherwise it’s going to rapidly get binned. What’s the point of having all your bookmarks available on any computer if you can’t access them if the site’s down or too busy?  And now it’s back up! :)&lt;/p&gt;
+
+&lt;p&gt;Maybe tomorrow I’ll add some more first thoughts on del.icio.us along with some of the other apps and utils I’ve found.&lt;/p&gt;
+
+&lt;p&gt;And please someone tell me why I’m listening to 80s on iTunes??&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First Posting</title>
+   <link href="http://www.elaptics.co.uk/journal/first-posting"/>
+   <updated>2006-02-20T00:00:00+00:00</updated>
+   <id>http://www.elaptics.co.uk/journal/first-posting</id>
+   <content type="html">&lt;p&gt;As you might have guessed from the title, this is my first posting on my brand spanking new blog that almost certainly no-one is going to read!&lt;/p&gt;
+
+&lt;p&gt;This blog is mainly just an easy place for me to plonk information that’s useful to me because I’m too lazy to come up with my own website design for now…&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
