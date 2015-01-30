@@ -1,5 +1,7 @@
-# 2015 - The Year of Goals
-
+---
+title: 2015 - The Year of Goals
+layout: post
+---
 2014 was a pretty tough year and at times it felt a bit like Groundhog Day where I was just doing the same thing each day with little to show for it.
 
 The only real highlight of the year was that I managed to lose around 10kg by following the Slow-Carb diet from [“The 4 Hour Body”](http://fourhourbody.com) by Tim Ferris.
