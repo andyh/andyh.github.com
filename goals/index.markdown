@@ -34,7 +34,7 @@ In no particular order, I want to read the following books which I already own.
     * 127 Hours
     * Adventures of Sherlock Holmes
     * Coming of the King
-    * Deep Six
+    * <strike>Deep Six</strike>
     * Fellowship of the Rings
     * Game of Thrones 1
     * Game of Thrones 2
