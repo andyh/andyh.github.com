@@ -66,4 +66,30 @@ In no particular order, I want to read the following books which I already own.
     * Thinking Fast and Slow [^nyb]
     * Unlimited Power [^nyb]
 
+Edit _25/6/2015_: I've also ended up reading these books too
+
+  * Fiction
+    * <strike>Racing Through the Dark: The Fall and Rise of David Millar</strike>
+    * <strike>The Secret Race
+    * <strike>At Speed
+    * <strike>Personal (Lee Child)</strike>
+    * <strike>Never Go Back (Lee Child)</strike>
+    * <strike>The Girl With The Dragon Tattoo (Steig Larsson)</strike>
+    * <strike>The Girl Who Played With Fire (Steig Larsson)</strike>
+    * <strike>The Girl Kicked The Hornet's Nest (Steig Larsson)</strike>
+    * <strike>Merry Christmas Alex Cross (James Patterson)</strike>
+    * <strike>Pop Goes The Weasel (James Patterson)</strike>
+    * <strike>Neon Mirage (Max Allan Collins)</strike>
+    * <strike>Stolen Away (Max Allan Collins)</strike>
+    * <strike>True Detective (Max Allan Collins)</strike>
+    * <strike>The Shadow Cartel</strike>
+    * <strike>Ruthless</strike>
+    * A Dark Lure
+
+  * Non-fiction
+    * The Brain Audit
+    * <strike>The Positioning Manual for Technical Firms</strike>
+
+
 [^nyb]: Ok, I don't actually own these yet but I plan to buy them and read them as part of this year's goal requirements
+
