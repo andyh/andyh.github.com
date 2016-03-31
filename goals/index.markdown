@@ -84,6 +84,10 @@ Edit _25/6/2015_: I've also ended up reading these books too
     * <strike>True Detective (Max Allan Collins)</strike>
     * <strike>The Shadow Cartel</strike>
     * <strike>Ruthless</strike>
+    * <strike>The Apocalyse Codex (Charles Stross)</strike>
+    * <strike>Saturn's Children (Charles Stross)</strike>
+    * <strike>The ocean at the end of the lane (Neil Gaiman)</strike>
+    * <strike>On the steel Breeze (Alastair Reynolds)</strike>
     * A Dark Lure
 
   * Non-fiction
