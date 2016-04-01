@@ -18,6 +18,8 @@ Here are the things that I'm currently focussing on:
 
 I have lots of other ideas and things that I want to do but these take up all my time at the moment. When my activities and priorities change, I'll update this page.
 
+This page is inspired by [Derek Sivers](http://sivers.org/now)
+
 <hr/>
 
 *Last Updated:* 1st April 2016
