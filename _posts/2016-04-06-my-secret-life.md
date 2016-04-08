@@ -26,6 +26,8 @@ Also in attendance was a charity, [Fairy Bricks](http://fairybricks.org), dedica
 
 I came away from the show feeling very invigorated -- *and with [76042 SHIELD Helicarrier](http://brickset.com/sets/76042-1/SHIELD-Helicarrier).*
 
+### And the building begins
+
 I started to build my collection of bricks by buying new sets, and realising this was starting to become an expensive hobby I returned home to my parents house and found my parents had kept much of mine and my brothers’ LEGO sets so I’ve been gradually rebuilding those. Unsurprisingly there are broken and missing pieces, but never fear, as usual the internet comes to the rescue. There is a whole secondary LEGO market out there. There’s the obvious auction sites where people are selling their collections where you can pick up bulk sets of bricks, but there are also sites such as [Bricklink](http://bricklink.com) and [BrickOwl](http://www.brickowl.com) which cater to you finding the specific parts you need and connecting you with sellers who have those parts.
 
 As you might be beginning to realise, there’s a wide variety of LEGO blogs, YouTube channels, [Flickr groups](https://www.flickr.com/search/groups/?text=lego) and forums catering to many sub-genres along with sites to [catalogue](http://brickset.com) your collection. It’s something I’m only just scratching the surface of myself.
