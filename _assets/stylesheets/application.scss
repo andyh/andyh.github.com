@@ -207,6 +207,9 @@ img.figure {
   a {
     @extend .dark-link;
   }
+  a.hl {
+    color: red;
+  }
 }
 
 /*
