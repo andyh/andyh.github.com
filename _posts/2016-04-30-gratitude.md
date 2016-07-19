@@ -63,5 +63,5 @@ Gratitude is about appreciating what you have, who you are and where you are rig
 
 As this post is my last during [30DWC](http://marcjenkins.co.uk/30dwc) I must also thank [Marc](http://marcjenkins.co.uk) for putting this together. It has been a beneficial and inspiring experience due to the community that has sprung up through it. Thank you everyone — you are making me a better person.
 
-[1]: “The 3 secrets to effective time investment” by Elizabeth Grace Saunders
-[2]: It may have been ruder than that!
+[^1]: “The 3 secrets to effective time investment” by Elizabeth Grace Saunders
+[^2]: It may have been ruder than that!
