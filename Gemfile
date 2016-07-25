@@ -7,3 +7,6 @@ gem "jekyll-assets"
 gem "jekyll-redirect-from"
 gem "sass"
 
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+end
