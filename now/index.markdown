@@ -9,7 +9,7 @@ Here are the things that I'm currently focussing on:
 * Spending time with my family
 * Running my business [Foxsoft Ltd](http://www.foxsoft.co.uk)
 * Running the beaver colonies at [1st Hopwas Scouts](http://www.1sthopwasscouts.org.uk/beavers/) as an Assistant Beaver Leader
-* Writing [*"30 Days to&hellip; Anything"*](/30-days)
+* Learning to cook
 * Exercising 3x a week (mostly kettlebells and rowing)
 * Reading books for improving myself and pleasure
 * Building LEGO
@@ -20,4 +20,4 @@ This page is inspired by [Derek Sivers](http://sivers.org/now)
 
 <hr/>
 
-*Last Updated:* 23rd September 2016
+*Last Updated:* 23rd November 2016
