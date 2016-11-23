@@ -10,9 +10,9 @@ _a reason or reasons for acting or behaving in a particular way_
 
 But you don’t have to look far on the internet to see people asking the same questions again and again:
 
-> How do I get motivated?
+> _How do I get motivated?_
 
-> How do I stay motivated [especially when times are tougher]?
+> _How do I stay motivated [especially when times are tougher]?_
 
 The answer should be self-evident, the goal you set should be reason enough. If it's not, maybe you need to adjust your goal. But I think they're actually saying: _"I don’t feel like doing the work I need to do to achieve my goal"_. They're hoping that someone has “one weird trick” which magically gets the work done.
 
@@ -26,4 +26,4 @@ Create yourself a process or system to make it easier to start working. Want to 
 
 Jocko (as usual) says it best:
 
-> “If you don’t feel like writing, or painting, or composing [or whatever], it doesn’t matter – you do it anyway!”
+> _“If you don’t feel like writing, or painting, or composing [or whatever], it doesn’t matter – you do it anyway!”_
