@@ -5,6 +5,7 @@ gem "bourbon"
 gem "jekyll"
 gem "jekyll-assets"
 gem "jekyll-redirect-from"
+gem "json" ,"~> 1.7"
 gem "sass"
 
 group :jekyll_plugins do
