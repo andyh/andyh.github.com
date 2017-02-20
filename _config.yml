@@ -12,4 +12,21 @@ kramdown:
 gems:
   - jekyll-redirect-from
   - jekyll-youtube
+collections:
+  marginalia:
+    output: true
+    permalink: /marginalia/:path/
 
+defaults:
+  -
+    scope:
+      path: "marginalia" # an empty string here means all files in the project
+      type: "marginalia"
+    values:
+      layout: "marginalia"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "default"

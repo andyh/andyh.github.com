@@ -1,0 +1,27 @@
+---
+layout: default
+title: Marginalia
+sitemap:
+  changefreq: daily
+---
+
+<h1>Marginalia</h1>
+<p>
+<em>
+  Articles take time to prepare and many don't see the light of day. Marginalia
+  are the notes, quotes, ideas and thoughts that never (or haven't yet) made it
+  to a full article. Like my friends, <a href="https://marcjenkins.co.uk/notes/">Marc</a> and <a href="https://daveredfern.com/notes/">Dave</a> I realised there's value in
+  sharing these too. It also gives me a place to put more fully-formed ideas
+  that don't fit into the main articles section.
+</em>
+</p>
+
+<ul class="posts-archive">
+  {% for note in site.marginalia %}
+    <li>
+    <a href="{{ note.url }}"><h3>{{ note.title }}</h3></a>
+      {{ note.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
