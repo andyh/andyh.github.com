@@ -7,6 +7,7 @@ gem "jekyll-assets"
 gem "jekyll-redirect-from"
 gem "json" ,"~> 1.7"
 gem "sass"
+gem "nokogiri", "~> 1.7"
 
 group :jekyll_plugins do
   gem "jekyll-youtube"
